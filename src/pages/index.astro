@@ -2,13 +2,23 @@
 import Layout from '../layouts/Layout.astro';
 import TopHeader from '../components/TopHeader.astro'
 import HeroSection from '../components/HeroSection.astro';
+import ExperienciaSection from '../components/ExperienciaSection.astro';
 ---
 
 <Layout title="Maira Diaz">
 	<TopHeader />
-	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth">
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth overflow-x-hidden">
 		<div class="snap-center">
 			<HeroSection />
+		</div>
+		<div class="snap-center">
+			<ExperienciaSection />
+		</div>
+		<div class="snap-center">
+			<ExperienciaSection />
+		</div>
+		<div class="snap-center">
+			<ExperienciaSection />
 		</div>
 	</main>
 </Layout>
